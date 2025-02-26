@@ -1,9 +1,9 @@
-// Function to check the user's answer
+
 function checkAnswer() {
-    // Step 1: Define the correct answer
+    
     const correctAnswer = "4";
 
-    // Step 2: Get the user's selected answer
+    
     const userAnswer = document.querySelector('input[name="quiz"]:checked')?.value;
 
     // Step 3: Get the feedback element
